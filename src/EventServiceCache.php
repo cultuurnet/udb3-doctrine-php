@@ -45,6 +45,8 @@ class EventServiceCache extends EventServiceDecoratorBase
             $data = parent::getEvent($id);
             $this->cacheProvider->save($id, $data, $this->lifetime);
         }
+
+        return $data;
     }
 
 
