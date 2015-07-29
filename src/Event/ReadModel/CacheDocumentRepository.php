@@ -7,7 +7,7 @@ namespace CultuurNet\UDB3\Doctrine\Event\ReadModel;
 
 use CultuurNet\UDB3\Event\ReadModel\DocumentGoneException;
 use CultuurNet\UDB3\Event\ReadModel\DocumentRepositoryInterface;
-use CultuurNet\UDB3\ReadModel\JsonDocument;
+use CultuurNet\UDB3\Event\ReadModel\JsonDocument;
 use Doctrine\Common\Cache\Cache;
 
 class CacheDocumentRepository implements DocumentRepositoryInterface
