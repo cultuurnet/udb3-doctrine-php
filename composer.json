@@ -16,7 +16,7 @@
   ],
   "require": {
     "doctrine/cache": "~1.3",
-    "cultuurnet/udb3": "~0.0"
+    "cultuurnet/udb3": "~0.1"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.0"
