@@ -7,7 +7,7 @@ namespace CultuurNet\UDB3\Doctrine;
 
 
 use CultuurNet\UDB3\EventServiceDecoratorBase;
-use CultuurNet\UDB3\EventServiceInterface;
+use CultuurNet\UDB3\Event\EventServiceInterface;
 use Doctrine\Common\Cache\Cache;
 
 class EventServiceCache extends EventServiceDecoratorBase

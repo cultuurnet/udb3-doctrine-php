@@ -3,7 +3,7 @@
 namespace spec\CultuurNet\UDB3\Doctrine;
 
 use CultuurNet\UDB3\Doctrine\EventServiceCache;
-use CultuurNet\UDB3\EventServiceInterface;
+use CultuurNet\UDB3\Event\EventServiceInterface;
 use Doctrine\Common\Cache\Cache;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -27,7 +27,7 @@ class EventServiceCacheSpec extends ObjectBehavior
 
     function it_implements_EventServiceInterface()
     {
-        $this->shouldHaveType('CultuurNet\UDB3\EventServiceInterface');
+        $this->shouldHaveType('CultuurNet\UDB3\Event\EventServiceInterface');
     }
 
     function it_first_tries_to_get_event_data_from_the_cache(
